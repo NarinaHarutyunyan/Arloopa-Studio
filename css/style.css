@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+button {
+  width: 321px;
+  height: 60.57px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border: none;
+  background-color: #EB1A23;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1450px) {
+  button {
+    width: 240px;
+    height: 50px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  button {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+.studio_box {
+  background-color: #F6F6FA;
+  font-family: "Roboto", sans-serif;
+  color: #000247;
+}
+
+.studio_box .studio_header {
+  margin-left: 399px;
+  margin-right: 399px;
+  padding-top: 85px;
+  text-align: center;
+}
+
+.studio_box .studio_header h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.studio_box .studio_header .about_studio {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.studio_box .studio_header .artwork {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.studio_box .studio_header .studio_svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.studio_box .studio_header .studio_svg .poly {
+  width: 35.14px;
+  height: 40.58px;
+}
+
+.studio_box .studio_header .studio_svg .poly svg {
+  width: 100%;
+  height: 100%;
+}
+
+.studio_box .studio_header .studio_svg .setchfab {
+  width: 50px;
+  height: 50px;
+}
+
+.studio_box .studio_header .studio_svg .setchfab img {
+  width: 100%;
+  height: 100%;
+}
+
+.studio_box .studio_header .studio_svg .youtube {
+  width: 46px;
+  height: 46px;
+}
+
+.studio_box .studio_header .studio_svg .youtube img {
+  width: 100%;
+  height: 100%;
+}
+
+.studio_box .studio_ar {
+  margin-left: 338px;
+  margin-right: 334px;
+}
+
+.studio_box .studio_ar .ar_boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes {
+  background-color: white;
+  width: 569px;
+  height: 286px;
+  -webkit-box-shadow: 20px 3px 30px #EDEDF3;
+          box-shadow: 20px 3px 30px #EDEDF3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes svg {
+  width: 100%;
+  height: 100%;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes .markerless_svg {
+  width: 150px;
+  height: 77px;
+  margin-left: 53px;
+  margin-right: 44px;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes .based_svg {
+  width: 114.6px;
+  height: 96.25px;
+  margin-left: 48.6px;
+  margin-right: 72.72px;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes .location_svg {
+  width: 108.69px;
+  height: 98px;
+  margin-left: 33px;
+  margin-right: 61.32px;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes .web_svg {
+  width: 122.33px;
+  height: 102px;
+  margin-left: 65.57px;
+  margin-right: 46.81px;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes .ar_text {
+  margin-right: 72px;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes .ar_text h5 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.studio_box .studio_ar .ar_boxes .studio_boxes .ar_text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 26px;
+}
+
+.studio_box .studio_ar .ar_boxes .markerless {
+  margin-top: 80.78px;
+}
+
+.studio_box .studio_ar .ar_boxes .based {
+  margin-top: 248.12px;
+  margin-left: 25px;
+}
+
+.studio_box .studio_ar .ar_boxes .location {
+  margin-top: 43.97px;
+}
+
+.studio_box .studio_ar .ar_boxes .web {
+  margin-top: 213.67px;
+  margin-left: 25px;
+}
+
+.studio_box .button_try_now {
+  text-align: center;
+  margin-top: 84px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1760px) {
+  .studio_box .studio_ar {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .studio_box .studio_header {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .studio_box .studio_header h3 {
+    font-size: 40px;
+  }
+  .studio_box .studio_header .about_studio {
+    font-size: 19px;
+  }
+  .studio_box .studio_header .artwork {
+    font-size: 17px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes {
+    width: 430px;
+    height: 215px;
+    padding-top: 30px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .markerless_svg {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .based_svg {
+    margin-left: 25px;
+    margin-right: 30px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .location_svg {
+    margin-left: 25px;
+    margin-right: 30px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .web_svg {
+    margin-left: 25px;
+    margin-right: 30px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .ar_text {
+    margin-right: 20px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .ar_text h5 {
+    font-size: 18px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .ar_text p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1335px) {
+  .studio_box .studio_ar {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .studio_box .studio_ar .ar_boxes .studio_boxes {
+    padding-top: 50px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .ar_text h5 {
+    font-size: 16px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .ar_text p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .studio_box .studio_ar .ar_boxes {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    width: 100%;
+    height: 295px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: unset;
+  }
+  .studio_box .studio_ar .ar_boxes .based {
+    margin-top: 25px;
+    margin-left: unset;
+  }
+  .studio_box .studio_ar .ar_boxes .location {
+    margin-top: 25px;
+  }
+  .studio_box .studio_ar .ar_boxes .web {
+    margin-top: 25px;
+    margin-left: unset;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .studio_box .studio_header {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .studio_box .studio_header {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .studio_box .studio_ar {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .studio_box .studio_header {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .studio_box .studio_header h3 {
+    font-size: 25px;
+  }
+  .studio_box .studio_header .about_studio {
+    font-size: 18px;
+  }
+  .studio_box .studio_header .artwork {
+    font-size: 16px;
+  }
+  .studio_box .studio_ar {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .markerless_svg {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .based_svg {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .location_svg {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .web_svg {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .ar_text h5 {
+    font-size: 15px;
+  }
+  .studio_box .studio_ar .ar_boxes .studio_boxes .ar_text p {
+    font-size: 12px;
+  }
+}
+
+.box2 .studio_ar {
+  margin-left: 310px;
+  margin-right: 310px;
+}
+
+.box2 .number {
+  margin-right: -50px;
+  z-index: 1;
+}
+
+.box2 .number p {
+  font-size: 123px;
+  font-weight: bold;
+  font-family: "Chivo", sans-serif;
+  color: #6196FF;
+}
+
+.box2 .ar_text {
+  margin-right: 10px;
+}
+
+.box2 .create_svg {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: -100px;
+}
+
+.box2 .costomize_svg {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: -100px;
+}
+
+.box2 .publish_svg {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: -100px;
+}
+
+.box2 .view_svg {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: -100px;
+}
+
+.box2 .create {
+  margin-top: 50px;
+}
+
+.box2 .costomize {
+  margin-top: 150px;
+}
+
+.box2 .publish {
+  margin-top: 65px;
+}
+
+.box2 .view {
+  margin-top: 150px;
+}
+
+.box2 .two {
+  margin-top: 100px;
+}
+
+.box2 .four {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1760px) {
+  .box2 .studio_ar {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .box2 .number p {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1335px) {
+  .box2 .studio_ar {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .box2 .two {
+    margin-top: 50px;
+    margin-right: 500px;
+  }
+  .box2 .four {
+    margin-top: 50px;
+    margin-right: 500px;
+  }
+  .box2 .costomize {
+    margin-top: -40px;
+  }
+  .box2 .view {
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .box2 .studio_ar {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .box2 .studio_ar {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
